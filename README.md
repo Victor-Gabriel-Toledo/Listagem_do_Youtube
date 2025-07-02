@@ -10,3 +10,4 @@ A estrutura inclui:
 - ✅ Uso de boas práticas de organização e semântica no código  
 
 💡 Ideal para treinar posicionamento de elementos, responsividade e hierarquia visual com CSS moderno.
+![Image](https://github.com/user-attachments/assets/f912f306-e681-42a1-ba29-4971c2ffe7a5)
