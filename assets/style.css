@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Roboto;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 100vh;
+    margin: 0;
+}
+
+.nav-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin: 5px 20px 0 20px;
+}
+
+#perfil {
+    width: 34px;
+    height: 34px;
+    border-radius: 20px;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+#icon-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#icon-center {
+    place-self: center;
+}
+
+#icon-right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 24px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 218px 1fr;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.icon-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#inicio {
+    font-weight: 600;
+}
+
+section {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+    margin-top: 50px;
+}
+
+.thumbnails {
+    height: 140px;
+}
+
+article div img{
+    width: 42px;
+    height: 42px;
+}
+
+article div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+h3 {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 12px;
+    padding-left: 50px;
+    font-weight: 300;
+}
+
+.image {
+    margin-bottom: 5px;
+}
